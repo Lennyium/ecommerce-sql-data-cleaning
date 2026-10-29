@@ -1,0 +1,12 @@
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.db-journal
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
