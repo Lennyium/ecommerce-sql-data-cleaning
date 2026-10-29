@@ -20,6 +20,17 @@ The dataset contains five tables: customers, orders, products, categories, and p
 - **Data quality:** 159 orders had discounts greater than their order amounts, requiring further investigation.
 - **Missing data:** 61 orders had missing total amounts, 33 products had missing prices, 25 customers had missing cities, and 2 categories had missing names.
 
+## SQL Analysis Results
+
+### Monthly Sales Performance
+![Monthly sales performance](screenshots/monthly-sales.png)
+
+### Payment Method Analysis
+![Payment method analysis](screenshots/payment-methods.png)
+
+### Annual Sales Performance
+![Annual sales performance](screenshots/annual-sales.png)
+
 ## Project Structure
 - `data/raw/` — Original CSV files
 - `sql/01_data_quality_checks.sql` — Data-quality checks
